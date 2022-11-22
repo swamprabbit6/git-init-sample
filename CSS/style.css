@@ -1,3 +1,10 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  background-color: lightblue;
+  padding: 30px;
+}
 .parent {
     width: 400px;
     height: 400px;
@@ -6,24 +13,19 @@
     text-align: center;
     margin: auto;
     margin-top: 200px;
-
-
   /* TODO: Add a margin property */
   /* TODO: Add a padding property */
   /* TODO: Add a border property */
   }
-.class {
-
+.center {
+padding: 45px;
 }
-  header {
-    display: flex;
-    justify-content: space-between;
-    color: black;
-    background-color: lightblue;
-    padding: 30px;
-
-  }
-
   body {
     background-color: antiquewhite;
+  }
+.child {
+  margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
