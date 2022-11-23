@@ -5,14 +5,16 @@ header {
   background-color: lightblue;
   padding: 30px;
 }
+a:hover{
+background-color: yellow;
+}
 .parent {
     width: 400px;
     height: 400px;
     background-color: rgba(0, 166, 255, 0.698);
     border: 15px solid black;
     text-align: center;
-    margin: auto;
-    margin-top: 200px;
+    margin: 100px auto;
   /* TODO: Add a margin property */
   /* TODO: Add a padding property */
   /* TODO: Add a border property */
@@ -28,4 +30,10 @@ padding: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .dirty {
+    flex: auto;
+    flex-wrap: wrap;
+    border: 5px black dotted;
+    text-align: center;
   }
